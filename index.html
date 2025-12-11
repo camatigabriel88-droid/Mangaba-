@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+<meta charset="UTF-8">
+<meta name="width= devic-width, initial-scale=1.0">
+<meta name="viewport">
+<title> Login</title>
+<head>
+  </head>
+<body>
+  <center>
+ 
+    
+   
+        
+
+
+  <nav>
+    
+    
+    <button onclick="mostrar('sobre')"> Mercado</button>
+    <button onclick="mostrar('contato')">contato</button>
+    
+    <div id="conteudo">
+      <h1> MANGA & LIFE, 
+        PRESTAÇÃO DE SERVIÇO LDA
+      
+      </h1>
+      <p> Welcome </p>
+      <p>
+        Obrigado por escolher está
+        página que veio por intermédio de 
+        facilitar a comunicação por via online, 
+        da organização Manga & Life Lda 
+        
+      </p1>
+      <h2> Gabriel Camati
+        🇦🇴
+      </h2>
+     Tel: 940038022
+      <p> plataformas digitais</p>
+      <h1> Mangaba dha Cléa</h1> 
+    </div>
+    
+    <li></li>   <button onclick="mostrar('inicio')">
+        Ir para os Recursos Humano
+      </button>
+      
+      
+        
+    </nav>
+    
+  </div>
+
+          
+
+
+
+  <script>
+    function mostrar(pagina) {
+      const conteudo = document.getElementById("conteudo");
+      conteudo.style.opacity = 0; 
+
+      setTimeout(() => {
+        if (pagina === "inicio") {
+          conteudo.innerHTML = `
+            <h1>🏠 RH</h1>
+            <p>Bem-vindo! Aos Recursos Humano.</p>
+          
+          <table border="5"cellpadding="1">
+       <thead >
+          <tr>
+          <th> Administrador</th>
+          <th> Direitor</th>
+          <th> Presidente do Conselho</th>
+          </tr>
+          </thead>  
+          <tbody>
+          <tr>
+          <td> Antonio Tadeu</td>
+          <td> Gabriel Camati</td>
+          <td> Silvia Furtunato</td>
+          </tr>
+          </tbody>
+          <tfoot>
+          <tr>
+          <th> Manga & Life</th>
+          
+          </tr>
+          </tfoot>
+         
+                                                     
+         </table>
+          <table border="8" cellpadding="1">
+          <thead>
+          <tr>
+          <th> Secrétario executivo </th>
+          <th> Tesoureiro</th>
+          <th> Cantábilista</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <td> Modesto Evaristo</td>
+          <td> Joaquim Mbinga</td>
+          <td> Amir Graça</td>
+          </tr>
+          </tbody>
+          </table>
+          <h1> Para continuar Click em: Sobre</h1>
+          `;
+          
+        } else if (pagina === "sobre") {
+          conteudo.innerHTML = `
+            <h1>ℹ⛸️🎎🥋🎽👖🧥🎒👙💄🎽👚💼👓🕶️💊⚗️☂️🌂👠👔🛁🧦 Mercado </h1>
+          <h3> Tabelas dos produtos</h3>
+          <table border="8" cellpadding="1">
+          <thead>
+          <tr>
+          <th> Nike</th>
+          <th> Air jord</th>
+          <th>Timberland</th>
+           <th>N.jord</th>
+          </tr>
+          </thead>
+          
+          <tbody>
+          <tr>
+          <td>15.000,00 Akz</td>
+          <td> 16.000,00 Akz</td>
+          <td> 34.000,00 Akz</td>
+          <td> 20.000,00 Akz</td>
+          </tr>
+         
+          </table>
+          <h1> Novidades para homens</h1>
+          <p>Calças/ Fatos</p>
+          <table border="5" cellpadding="1">
+          <thead>
+          <tr>
+          <th> Calça Social(32)</th>
+          <th> Olimpico (23)</th>
+          <th> Calça Balmen</th>
+          </tr>
+          </thead>
+      <tbody>
+          <tr>
+          <td> 8.000,00 Akz</td>
+          <td>7.000,00 Akz</td>
+          <td> 12.000,00 Akz</td>
+          <th>Origem Americana</th>
+          </tr>
+          </tbody>
+<th>Olimpico Bike </th>
+<th> Cação e camisa(luis toon)</th> 
+<th> Billy G</th>  
+<th> Air Max</th>      
+<tbody>
+          <tr>
+          <td> 5.000,00 Akz</td>
+          <td> 8.000,00 Akz</td>
+          <td> 10.000,00 Akz</td>
+          <td>12.000,00 Akz</td>
+          </tr>
+          </tbody>     
+          </table>
+          
+          <h1> Novidade especial</h1>
+          <p1> Mulheres/ tudo</p1>
+          <table border="6" cellpadding="8">
+          <thead>
+          <tr>
+          <th> Blusas (nike)</th>
+          <th> Blusas (Tiktok)</th>
+          <th> Blusa (luis toon)</th>
+          <th>Blusas curtas</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <td>
+          3.500,00 Akz
+          </td>
+          <td> 3.900,0p Akz</td>
+          <td> 3.500, 00 Akz</td>
+          <td> 3.500,00 Akz</td>
+          </tr>
+          </tbody>
+          <th>Saia/Blusa </th>
+          <th> Calça/B.ch.</th>
+          <th> Tchuna</th>
+          <th> Casaco</th>
+          
+         <tbody>
+          <tr>
+          <td>8.000,00 Akz</td>
+          <td> 14.000,00 Akz</td>
+          <td> 3.000,00 Akz</td>
+          <td> 6.000,00 Akz</td>
+          </tr>
+          </tbody>
+          </table>
+    
+          
+  <div class="casmisa-fatos">
+    <div class="Roupas">
+      <img src="R.jpeg">
+          <A class="preco">30.000,00</A>
+          
+          
+          
+    </div>
+  </div>
+          <div class="fato-social">
+          <div class="social">
+          
+          <img src="Z.jpeg">
+          <A class="preco">26.000,00</A>
+         
+          </div>
+          </div>
+  
+          
+  
+          
+            
+          
+          `;
+        } else if (pagina === "contato") {
+          conteudo.innerHTML = `
+          <style>
+          background-image: url("Su.jpg");
+          </style>
+            <h1>📞 Contato</h1>
+            <p>Envie um e-mail para <b>camatigabriel88@gmail.com</b>.</p>
+          <h1> Manga & Life</h1>
+          <p> Nosso whatsApp para atendimentos online</p>
+          <a href=" https://wa.me/244940038022">
+          WhatsApp</a><br>
+          <table border="6" cellpadding="10">
+          <thead>
+          <tr>
+          <th> Maravilhas da loja</th>
+          </tr>
+          </thead>
+          </table>
+          <p> Se pretendes ser um afilhado Faça já o se login.</p>
+          <form action="login.php"method="post">
+          
+       <li> Nome👲</li>   <input type="text" name=""
+          placeholder="digite seu nome" required >
+     <li>Senha🔑</li>   <input type="password" name="" id=""
+          placeholder="digite sua password" required>
+         <li>Contacto📞</li> <input type="tel" name="" id="" id=""
+          placeholder="Digite seu cotacto">
+        <li></li>  <button type="submit">Registrar</button>
+          </form>
+          
+  
+  
+  
+          
+          `;
+        }
+
+        conteudo.style.opacity = 1; 
+      }, 300);
+    }
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <style>
+   body{
+     background-color: yellow;
+     background-image:url("Su.jpg");
+     color:Maroon;
+     font-family:'Time new roman',
+     times,serif;
+     
+    
+     
+   }
+  table{
+    background-color:white;
+    border-collapse:collapse;
+    whidth:80%;
+    margin:20px auto;
+    color:black;
+  }
+  th{
+    background-color:orange;
+  }
+  button{
+    background-color:teal;
+    border: 5px solid #444a;
+    padding:5px 20px;
+    border-radius:5px;
+    margin-top:10px;
+    font-size:16px;
+    
+  }
+  
+    form input {
+      display: block;
+      margin: 10px auto;
+      padding: 8px;
+     font-width: bold;
+      font-size: 16px;
+      background-color:orange;
+      border-radius:30px;
+      
+    }
+  
+   A{
+    background-color:Orange;
+  }
+  </style>
+
+
+
+</body>
+</html>
+   
